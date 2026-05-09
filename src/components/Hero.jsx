@@ -93,6 +93,7 @@ const Hero = () => {
                     <AnimatePresence mode='wait'>
 
                         {/* IMAGE */}
+                        {/* T IMAGE */}
                         <motion.img
                             key={activeData.id + "-img"}
                             initial={{ opacity: 0, x: 100 }}
@@ -104,6 +105,7 @@ const Hero = () => {
                             className='w-[400px] md:w-[400px] xl:w-[500px] relative z-10'
                         />
 
+                        {/* TEXT MODAL */}
                         {/* TEXT MODAL */}
                         <motion.div
                             key={activeData.id + "-modal"}
