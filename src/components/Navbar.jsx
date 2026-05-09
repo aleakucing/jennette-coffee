@@ -16,6 +16,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Menu Desktop */}
+                {/* Menu Desktoo*/}
                 <div className="hidden md:flex items-center gap-6">
                     <ul className="flex items-center gap-2">
                         {NavbarData.map((item) => (
@@ -38,6 +39,7 @@ const Navbar = () => {
                         ))}
                     </ul>
 
+                    {/* User Icon */}
                     {/* User Icon */}
                     <button className="text-xl hover:scale-105 transition">
                         <FaRegUser />
